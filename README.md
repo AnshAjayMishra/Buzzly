@@ -1,85 +1,53 @@
-# NextJs-Boiler
+# Buzzly
 
-🚀 A simple and customizable Next.js boilerplate with Tailwind CSS, TypeScript, and ShadCN UI components.
+Buzzly is a modern social media platform where users can share posts, follow others, like, comment, and engage in conversations. Built with modern web technologies for a seamless user experience.
 
 ## Features
+- 📝 Create and share posts
+- 👍 Like and comment on posts
+- 👥 Follow and unfollow users
+- 📊 Real-time notifications
+- 🔎 Discover and explore content
+- 🔐 Secure authentication and authorization
 
-- ⚡ **Next.js 15.2** - The latest version for optimal performance.
-- 🎨 **Tailwind CSS** - For fast and efficient styling.
-- 🌙 **Dark Mode Toggle** - Built-in theme switcher using `next-themes`.
-- 🏗 **ShadCN UI Components** - Pre-built and customizable UI components.
-- 🔗 **Absolute Imports** - Clean and maintainable project structure.
-- ✅ **TypeScript Support** - Ensuring type safety and better development 
-experience.
-- 🚫 **Custom 404 Page** - A beautifully designed error page for better UX.
-
----
+## Tech Stack
+- **Frontend:** Next.js
+- **Backend:** Prisma
+- **Database:** PostgreSQL (hosted on Neon)
+- **Authentication:** Clerk
 
 ## Installation
 
-### 1️⃣ Using `npx`
-Run the following command to create a new project using this boilerplate:
-
-```sh
-npx create-next-app@latest my-project -e https://github.com/AnshAjayMishra/NextJs-Boiler
-cd my-project
+1. **Clone the repository:**
+```bash
+  git clone https://github.com/AnshAjayMishra/Buzzly.git
+  cd Buzzly
 ```
 
-### 2️⃣ Clone the Repository
-If you prefer to clone manually:
-
-```sh
-git clone https://github.com/AnshAjayMishra/NextJs-Boiler.git my-project
-cd my-project
+2. **Install dependencies:**
+```bash
+  npm install
 ```
 
----
-
-## Setup & Usage
-
-### Install Dependencies
-```sh
-yarn install  # or npm install
+3. **Set up environment variables:**
+Create a `.env` file in the root directory and add the following:
+```env
+DATABASE_URL=your_postgresql_connection_string
+CLERK_SECRET_KEY=your_clerk_secret_key
 ```
 
-### Start Development Server
-```sh
-yarn dev  # or npm run dev
+4. **Run the development server:**
+```bash
+  npm run dev
 ```
+The app will be available at `http://localhost:3000`
 
-Your app will be available at `http://localhost:3000` 🎉
-
----
-
-## Deployment
-
-Easily deploy your app using Vercel:
-
-```sh
-vercel
-```
-
-Or click the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AnshAjayMishra/NextJs-Boiler)
-
----
-
-## Contributing 🤝
-
-Contributions are welcome! Feel free to fork, improve, and submit a PR.
-
-```sh
-git checkout -b feature-branch
-# Make your changes
-```
-
----
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
 ## License
+This project is licensed under the [MIT License](LICENSE).
 
-📜 MIT License. Free to use and modify. Enjoy building! 🚀
 ---
-
-**By [AnshAjayMishra](https://github.com/AnshAjayMishra) ✨**
+Built with ❤️ by [Ansh Ajay Mishra](https://github.com/AnshAjayMishra)
 
