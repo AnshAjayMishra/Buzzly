@@ -33,7 +33,7 @@ Buzzly is a modern social media platform where users can share posts, follow oth
 Create a `.env` file in the root directory and add the following:
 ```env
 DATABASE_URL=your_postgresql_connection_string
-CLERK_SECRET_KEY=your_clerk_secret_key
+CLERK_SECRET_KEY=""
 ```
 
 4. **Run the development server:**
