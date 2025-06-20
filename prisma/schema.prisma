@@ -28,6 +28,15 @@ model user{
   createdAt DateTime @default(now())
   updateAt DateTime @updatedAt
 
-  
+//relations
 
-}
+posts Post []
+comments Comments []
+likes Like []
+
+followers Follows [] @realtion("following")
+following Follows [] @relation("follower")
+
+notifications Notification[]@relation("userNotifications") //recive
+notificationsCreated Notification[] @relation("notificationCreator")
+} //trigger
