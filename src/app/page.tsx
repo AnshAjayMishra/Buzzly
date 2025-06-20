@@ -10,12 +10,7 @@ import React from "react";
 function page() {
   return (
     <div>
-      <SignedOut>
-        <SignInButton mode="modal" />
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
+     
     </div>
   );
 }
